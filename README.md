@@ -338,6 +338,7 @@ You can encrypt on the AWS supported server-side in the following ways:
 - When files are deleted in the original bucket (via a delete marker as versioning prevents true deletions), those deletes are not replicated.
 - <a href="https://aws.amazon.com/solutions/cross-region-replication-monitor/">Cross Region Replication Overview</a>
 - <a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/replication-what-is-isnot-replicated.html#replication-what-is-not-replicated ">What is and isn’t replicated such as encrypted objects, deletes, items in glacier, etc.</a>
+- Use S3 Batch replication, it is a one time job to retroactively replicate the objects
 
 ### S3 Transfer Acceleration:
 - Transfer acceleration makes use of the CloudFront network by sending or receiving data at CDN points of presence (called edge locations) rather than slower uploads or downloads at the origin.

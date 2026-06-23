@@ -1770,3 +1770,7 @@ The following section includes services, features, and techniques that may appea
   - Retrieve historical configurations of one or more resources. ·     
   - Receive a notification whenever a resource is created, modified, or deleted.     
   - View relationships between resources. For example, you might want to find all resources that use a particular security group.
+  - 
+### AWS Firewall Manager and AWS Control Tower are both enterprise-level management tools designed for multi-account environments, but they serve completely different purposes.
+  - AWS Control Tower is an orchestration and governance tool used to set up, build, and maintain a secure, compliant multi-account landing zone based on AWS best practices.
+  - AWS Firewall Manager is a specific network security management service used to centrally configure and enforce firewall rules across those accounts
